@@ -11,5 +11,5 @@ nuget pack ..\src\DoddleReport.iTextSharp\DoddleReport.iTextSharp.csproj -prop C
 nuget pack ..\src\DoddleReport.OpenXml\DoddleReport.OpenXml.csproj -prop Configuration=Release -Build -Symbols -OutputDirectory .\packages
 nuget pack ..\src\DoddleReport.Web\DoddleReport.Web.csproj -prop Configuration=Release -Build -Symbols -OutputDirectory .\packages
 
-nuget pack ..\src\DoddleReport.Sample.Web\DoddleReport.Sample.Mvc.nuspec -OutputDirectory .\packages
+nuget pack ..\src\DoddleReport.Sample.Web\DoddleReport.Sample.Mvc.nuspec -Build -Symbols -OutputDirectory .\packages
 
